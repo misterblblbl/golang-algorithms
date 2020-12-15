@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(numeric.Factorize(802597))
+	fmt.Println(numeric.Gcd(24, 60))
 }
