@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"./numeric"
+	sl "./datastructs/stackonlist"
 )
 
 func main() {
-	fmt.Println(numeric.Gcd(24, 60))
+	sl.RunExampleStack()
 }
